@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #eaeaea;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resume {
+    width: 850px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+
+.top-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 25px;
+    border-left: 8px solid #000;
+    margin-bottom: 30px;
+}
+
+.banner-left h1 {
+    margin: 0;
+    font-size: 38px;
+    letter-spacing: 3px;
+    color: #000;
+}
+
+.banner-left p {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #444;
+}
+
+
+.banner-right img {
+    width: 140px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #000;
+}
+
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+
+.line {
+    width: 100%;
+    height: 2px;
+    background: #000;
+    margin-bottom: 15px;
+}
+
+
+.section p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.section ul {
+    padding-left: 20px;
+}
+
+.section li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+
+.skills span {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+}
